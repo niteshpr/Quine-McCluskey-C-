@@ -1,10 +1,10 @@
 # Quine-McCluskey-CPP-
 This is a Simple implementation of Quine-McCluskey method of boolean reduction using C++.
 
-# This code is made By : Nitesh Kumar Prasad
-# Roll : 18CS8053
-# Section : CS-X
-# Guided by : Mr. Bibhash Sen
+## This code is made By : Nitesh Kumar Prasad
+### Roll : 18CS8053
+### Section : CS-X
+## Guided by : Mr. Bibhash Sen
 
 In this Program First Number of variable is taken from user.
 The code than asks for the MinTerms seperated by commas(,).
