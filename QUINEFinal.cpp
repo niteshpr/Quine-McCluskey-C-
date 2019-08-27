@@ -66,7 +66,7 @@ bool isGreyCode(string a,string b)
 }
 
 
-//function to replace complement terms with '-'
+
 int setbit(string s)
 {
   int n=0;
@@ -79,6 +79,8 @@ int setbit(string s)
   }
   return n;
 }
+
+//function to replace complement terms with '-'
 string replace_complements(string a,string b)
 {
    string temp="";
@@ -112,7 +114,7 @@ vector<string> reduce(vector<string> minterms)
       {
           rep(j,i,max)
           {
-               //If a grey code pair is found, replace the differing bits with don't cares.
+               //If a grey code pair is found, replace the differing bits with "-".
                if(isGreyCode(minterms[i],minterms[j]))
                {
                   checked[i]=1;
@@ -185,7 +187,7 @@ bool VectorsEqual(vector<string> a,vector<string> b)
 
 };
 
-//Main function
+
 int main ()
 {
    char check='y';
